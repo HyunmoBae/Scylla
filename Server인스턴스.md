@@ -1,4 +1,4 @@
-## Server 인스턴스에 scylla 컨테이너 생성 및 테이블 작성
+## scylla 컨테이너 생성 및 테이블 작성
 ```
 sudo apt-get update
 sudo apt-get upgrade
