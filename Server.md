@@ -30,6 +30,6 @@ cqlsh> create table usertable (
   
 exit;
 
-sudo apt-get net-tools
+sudo apt-get net-tools \\네트워크 툴 다운
 ifconfig \\ip확인
 ```
