@@ -4,6 +4,7 @@ sudo apt-get update
 sudo apt-get upgrade
 ```
 ## 도커설치, scylla 컨테이너 생성
+```
 sudo apt-get install docker.io \\도커설치
 docker pull scylladb/scylla-nightly:lastest \\이미지 다운
 sudo docker run --name [Name] --hostname some--scyla -d scylladb/scylla-nightly \\컨테이너 생성
@@ -30,4 +31,5 @@ cqlsh> create table usertable (
 exit;
 
 sudo apt-get net-tools
-ifconfig
+ifconfig \\ip확인
+```
